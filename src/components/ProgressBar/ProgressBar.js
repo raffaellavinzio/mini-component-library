@@ -25,7 +25,7 @@ const ProgressBar = ({ value, size }) => {
     <WrapperBase
       style={styles}
       role='progressbar'
-      aria-valuenow='20'
+      aria-valuenow={value}
       aria-valuemin='0'
       aria-valuemax='100'
     >
