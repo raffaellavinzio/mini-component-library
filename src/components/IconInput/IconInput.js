@@ -27,7 +27,8 @@ const IconInput = ({ label, icon, width = 250, size, placeholder }) => {
   );
 };
 
-const Wrapper = styled.div`
+const Wrapper = styled.label`
+  display: block;
   border-bottom: ${p => (p.size === "large" ? "2px solid" : "1px solid")};
   border-color: ${COLORS.black};
   color: ${COLORS.gray700};
@@ -39,7 +40,6 @@ const Wrapper = styled.div`
 `;
 
 const IconWrapper = styled.div`
-  //color: inherit;
   position: absolute;
   top: 0.2rem;
 `;
