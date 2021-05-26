@@ -39,7 +39,7 @@ const Wrapper = styled.div`
 `;
 
 const IconWrapper = styled.div`
-  color: inherit;
+  //color: inherit;
   position: absolute;
   top: 0.2rem;
 `;
