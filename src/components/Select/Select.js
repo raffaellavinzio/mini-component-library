@@ -27,6 +27,7 @@ const IconDelegatedStyles = {
   position: "relative",
   right: "2.5rem",
   top: "0.7rem",
+  pointerEvents: 'none'
 };
 
 const Wrapper = styled.div`
